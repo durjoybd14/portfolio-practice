@@ -1,0 +1,92 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+}
+
+.half-div{
+    float: left;
+    width: 40%;
+    margin-left: 65px;
+    padding: 20px;
+    
+}
+.top-banner{
+    height: 600px;
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+.middle-banner{
+    height: 600px;
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right 0;
+    margin-top: 10px;
+}
+
+.half-div h1{
+    font-size: 50px;
+}
+.half-div span{
+    color: orange;
+}
+.half-div p{
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+.half-div a{
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    background-image: linear-gradient(45deg,lightsalmon,tomato);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+.last-section{
+    height: 420px;
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left 65%;
+}
+.last-section h3{
+    font-size: 30px;
+}
+.last-section .half-div{
+    float: left;
+    width: 39%;
+    height: 335px;
+    box-shadow: 10px 10px 40px grey;
+    padding: 2% 2%;
+    border-radius: 10px;
+}
+.last-section .half-div h2{
+    font-size: 45px;
+}
+.last-section .half-div h3{
+    font-size: 20px;
+    color: orange;
+}
+.last-section .half-div p{
+}
+
+#full-div{
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#baby-div{
+    border-left: 10px solid;
+    border-image: linear-gradient(180deg,blue,rgb(124, 163, 247));
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+    margin-top: 135px;
+    font-size: 18px;
+}
